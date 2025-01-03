@@ -87,7 +87,7 @@ void logoutPlayer() {
     printf("=== LOGOUT ===\n");
     printf("You have logged out successfully.\n");
     sleep(1);
-    showMenu();
+    loginPlayer();
 }
 
 void generatemap(int p, int q, int r) {
@@ -437,4 +437,3 @@ int main() {
     saveScoreboard();
     return 0;
 } 
-
